@@ -20,7 +20,7 @@ const app = express();
 
 // ✅ Middleware (IMPORTANT: Order matters!)
 app.use(cors({
-  origin: ["http://localhost:3000", "http://localhost:3002"],
+  origin: ["https://krisisaathi.netlify.app/"],
   credentials: true,
 }));
 app.use(express.json()); // Required for parsing JSON body
